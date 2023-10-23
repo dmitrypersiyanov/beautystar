@@ -2,26 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Gistesy";
+  src: url("../public/fonts/Gistesy.ttf");
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+/* h1 {
+  font-size: 55px;
+  font-weight: bold;
+} */
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
+input:-webkit-autofill {
+  border-color: rgb(30 41 59);
+  -webkit-text-fill-color: rgb(241 245 249) !important;
+  -webkit-box-shadow: 0 0 0px 1000px rgb(25, 39, 52) inset;
+}
+
+input:-webkit-autofill:focus {
+  border-color: rgb(30 41 59);
+  -webkit-box-shadow: 0 0 0px 1000px rgb(21, 32, 43) inset;
 }
