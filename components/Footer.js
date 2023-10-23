@@ -68,6 +68,12 @@ const Footer = () => {
                 >
                   Instagram
                 </a>
+                <a
+                  className="text-slate-500 hover:text-slate-300 font-normal"
+                  href="https://www.facebook.com/p/Denzel-Washington-Actor-100050289617498/"
+                >
+                  Spapchat
+                </a>
               </div>
             </div>
           </div>
