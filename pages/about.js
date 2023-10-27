@@ -25,7 +25,7 @@ const About = () => {
           <div className="h-96 relative order-2 md:order-1">
             <Image
               alt="founder"
-              src="/images/girl.webp"
+              src="/images/ombre2.webp"
               layout="fill"
               objectFit="cover"
               priority={true}
