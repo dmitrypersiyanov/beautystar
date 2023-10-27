@@ -68,13 +68,13 @@ const StylistProfile = () => {
                   {stylist.about}
                 </p>
                 <h2 className="text-xl font-normal mt-7 mb-3">
-                  {stylist.name}'s interests
+                  {stylist.name}&apos;s interests
                 </h2>
                 <p className="text-lg font-light text-slate-600">
                   {stylist.interests}
                 </p>
                 <h2 className="text-xl font-normal mt-7 mb-3">
-                  {stylist.name}'s experience
+                  {stylist.name}&apos;s experience
                 </h2>
                 <p className="text-lg font-light text-slate-600">
                   {stylist.experience}

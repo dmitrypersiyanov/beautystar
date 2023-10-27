@@ -24,12 +24,12 @@ const Navigation = () => {
         </div>
         <div className="hidden lg:flex flex-row gap-5 items-center font-light">
           <div>
-            <a
+            <Link
               className="text-slate-600 hover:text-slate-900 text-lg"
               href="/services"
             >
               Services
-            </a>
+            </Link>
           </div>
           <div>
             <Link
@@ -48,12 +48,12 @@ const Navigation = () => {
             </Link>
           </div>
           <div>
-            <a
+            <Link
               className="text-slate-600 hover:text-slate-900 text-lg"
               href="/about"
             >
               About
-            </a>
+            </Link>
           </div>
           <div className="rounded-full px-6 py-3 bg-slate-800 text-white ml-5">
             <a href="">Book now</a>

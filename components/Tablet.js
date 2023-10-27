@@ -23,7 +23,7 @@ const Tablet = () => {
       className="pt-10 sm:pt-20 pb-10 sm:py-10 px-10 sm:px-14 h-full sm:h-[650px] w-full sm:w-[500px] sm:border-[8px] sm:shadow-2xl bg-white sm:border-slate-900 sm:rounded-3xl lg:absolute lg:-top-24 lg:right-5 xl:right-10 overflow-hidden flex flex-col justify-center"
     >
       <h2 className="text-center text-4xl text-slate-700 font-gistesy mb-10">
-        Today's Offers
+        Today&apos;s Offers
       </h2>
       <div className="flex flex-col gap-2 mb-5 w-full">
         {services

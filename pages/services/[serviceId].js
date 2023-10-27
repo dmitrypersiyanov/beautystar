@@ -44,7 +44,7 @@ const BeautyService = () => {
                   {service.what}
                 </p>
                 <h2 className="text-xl font-normal mt-7 mb-3">
-                  What's included in the services?
+                  What&apos;s included in the services?
                 </h2>
                 <p className="text-lg font-light text-slate-600">
                   {service.how}
