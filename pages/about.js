@@ -13,7 +13,7 @@ const About = () => {
           <div className="h-96 overflow-hidden relative">
             <Image
               alt="our team"
-              src="/images/us.jpg"
+              src="/images/us.webp"
               layout="fill"
               objectFit="cover"
             />
@@ -24,7 +24,7 @@ const About = () => {
           <div className="h-96 relative order-2 md:order-1">
             <Image
               alt="founder"
-              src="/images/girl.jpg"
+              src="/images/girl.webp"
               layout="fill"
               objectFit="cover"
             />
@@ -40,7 +40,7 @@ const About = () => {
           </div>
           <div className="bg-purple-300 relative h-96 order-3 md:col-span-2 xl:col-span-1 flex items-center justify-center">
             <Image
-              src="/images/scissors.jpg"
+              src="/images/scissors.webp"
               layout="fill"
               objectFit="cover"
               alt="scrissors"
