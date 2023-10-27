@@ -16,6 +16,7 @@ const Impression = () => {
                 layout="fill"
                 objectFit="cover"
                 alt="girl"
+                priority={true}
               />
             </div>
             <div className="hidden lg:flex absolute -bottom-20 -right-20 w-72 h-60 xl:w-96 xl:h-64 bg-blue-100 z-20 items-center justify-center font-gistesy text-[75px]">
@@ -52,6 +53,7 @@ const Impression = () => {
                 layout="fill"
                 objectFit="cover"
                 alt="girl"
+                priority={true}
               />
             </div>
             <div className="hidden lg:flex absolute -bottom-20 -left-20 w-72 h-60 xl:w-96 xl:h-64 bg-blue-100 z-20 items-center justify-center font-gistesy text-[75px]">
@@ -74,6 +76,7 @@ const Impression = () => {
                 layout="fill"
                 objectFit="cover"
                 alt="girl"
+                priority={true}
               />
             </div>
             <div className="hidden lg:flex absolute -bottom-20 -right-20 w-72 h-60 xl:w-96 xl:h-64 bg-blue-100 z-20 items-center justify-center font-gistesy text-[75px]">

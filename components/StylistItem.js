@@ -5,7 +5,13 @@ const StylistItem = ({ name, img, mainSpecialization }) => {
   return (
     <>
       <div className="w-full md:w-[50%] h-[700px] relative overflow-hidden">
-        <Image alt={name} src={img} layout="fill" objectFit="cover" />
+        <Image
+          alt={name}
+          src={img}
+          layout="fill"
+          objectFit="cover"
+          priority={true}
+        />
         <div className="absolute top-0 right-0 left-0 bottom-0 transition-background duration-300 hover:bg-slate-900/70">
           <div className="w-full h-full flex flex-col items-center justify-center text-slate-50 group">
             <span className="text-5xl font-gistesy mb-2 -translate-y-96 transition-all duration-700 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">

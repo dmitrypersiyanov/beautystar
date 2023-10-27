@@ -16,6 +16,7 @@ const About = () => {
               src="/images/us.webp"
               layout="fill"
               objectFit="cover"
+              priority={true}
             />
           </div>
         </div>
@@ -27,6 +28,7 @@ const About = () => {
               src="/images/girl.webp"
               layout="fill"
               objectFit="cover"
+              priority={true}
             />
           </div>
           <div className="bg-blue-300 order-1 md:order-2 flex h-96 p-14 sm:p-14 flex-col justify-center">
@@ -44,6 +46,7 @@ const About = () => {
               layout="fill"
               objectFit="cover"
               alt="scrissors"
+              priority={true}
             />
           </div>
         </div>

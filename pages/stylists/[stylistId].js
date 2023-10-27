@@ -21,6 +21,7 @@ const StylistProfile = () => {
                   src={stylist.img}
                   layout="fill"
                   objectFit="cover"
+                  priority={true}
                 />
               </div>
               <div className="w-full sm:w-1/2 h-full p-10 sm:p-10 lg:p-20 flex flex-col">
