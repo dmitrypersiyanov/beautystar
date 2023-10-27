@@ -34,7 +34,7 @@ export const stylists = [
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
-    img: "/images/julian.jpg",
+    img: "/images/julian.webp",
   },
   {
     id: 2,
@@ -71,7 +71,7 @@ export const stylists = [
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
-    img: "/images/sofia.jpg",
+    img: "/images/sofia.webp",
   },
   {
     id: 3,
@@ -108,7 +108,7 @@ export const stylists = [
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
-    img: "/images/bob.jpg",
+    img: "/images/bob.webp",
   },
   {
     id: 4,
@@ -145,7 +145,7 @@ export const stylists = [
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
-    img: "/images/francesca.jpg",
+    img: "/images/francesca.webp",
   },
   {
     id: 5,
@@ -182,7 +182,7 @@ export const stylists = [
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
-    img: "/images/luiza.jpg",
+    img: "/images/luiza.webp",
   },
   {
     id: 6,
@@ -219,6 +219,6 @@ export const stylists = [
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
-    img: "/images/briana.jpg",
+    img: "/images/briana.webp",
   },
 ];

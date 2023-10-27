@@ -23,38 +23,11 @@ const StylistItems = () => {
   }, [controls, inView]);
   return (
     <>
-      {/* <div id="stylists" className="h-[700px] w-full overflow-hidden relative">
-        <Image
-          alt="creative team"
-          src="/images/meditation.jpg"
-          fill
-          // objectFit="cover"
-        />
-        <div className="absolute top-40 right-40 left-40 bottom-40 bg-slate-900/60">
-          <div className="w-full h-full flex flex-col items-center justify-center">
-            <h2 className="text-5xl font-bold uppercase mb-3 text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-purple-300 to-purple-400">
-              Meet our
-            </h2>
-            <h3 className="text-[70px] font-gistesy font-light text-white">
-              beauty gamechangers
-            </h3>
-          </div>
-        </div>
-      </div> */}
       <div id="stylists">
-        {/* <div className="w-full flex flex-col items-center justify-center pt-28 pb-24">
-          <h2 className="text-3xl text-slate-800">Meet our team</h2>
-          <h3 className="text-[70px] font-gistesy font-light text-slate-800">
-            beauty ambassadors
-          </h3>
-        </div> */}
         <div className="flex flex-col items-center mb-40 px-10 text-center">
           <h2 className="text-3xl text-slate-800">
             Fueled up by our passionate team
           </h2>
-          {/* <p className="text-lg text-slate-800">
-          Good vibes tonight vibes tonight vibes tonight
-        </p> */}
         </div>
       </div>
       <motion.div

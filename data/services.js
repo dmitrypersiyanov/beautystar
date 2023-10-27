@@ -11,7 +11,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/color.jpg",
+    img: "/images/color.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -41,7 +41,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/mens.jpg",
+    img: "/images/mens.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -71,7 +71,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/ombre2.jpg",
+    img: "/images/ombre2.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -101,7 +101,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/braiding.jpg",
+    img: "/images/braiding.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -131,7 +131,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/extension.jpg",
+    img: "/images/extension.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -161,7 +161,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/curly.jpg",
+    img: "/images/curly.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -191,7 +191,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/blondes.jpg",
+    img: "/images/blondes.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -221,7 +221,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/balayage.jpg",
+    img: "/images/balayage.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -251,7 +251,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/children.jpg",
+    img: "/images/children.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -281,7 +281,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/occasion.jpg",
+    img: "/images/occasion.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -311,7 +311,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/updo.jpg",
+    img: "/images/updo.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -341,7 +341,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/correction.jpg",
+    img: "/images/correction.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -371,7 +371,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/fade.jpg",
+    img: "/images/fade.webp",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
