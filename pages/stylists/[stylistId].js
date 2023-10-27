@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import { stylists } from "@/data/stylists";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const StylistProfile = () => {
   const router = useRouter();
@@ -19,7 +19,7 @@ const StylistProfile = () => {
                 <Image
                   alt={stylist.name}
                   src={stylist.img}
-                  fill
+                  layout="fill"
                   objectFit="cover"
                 />
               </div>

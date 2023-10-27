@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Impression = () => {
   return (
@@ -13,7 +13,7 @@ const Impression = () => {
             <div className="relative w-full h-full overflow-hidden z-10">
               <Image
                 src="/images/creative.jpg"
-                fill
+                layout="fill"
                 objectFit="cover"
                 alt="girl"
               />
@@ -47,7 +47,12 @@ const Impression = () => {
         <div className="flex w-full sm:w-1/2">
           <div className="relative w-full h-[400px]">
             <div className="relative w-full h-full overflow-hidden z-10">
-              <Image src="/images/skin.jpg" fill objectFit="cover" alt="girl" />
+              <Image
+                src="/images/skin.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt="girl"
+              />
             </div>
             <div className="hidden lg:flex absolute -bottom-20 -left-20 w-72 h-60 xl:w-96 xl:h-64 bg-blue-100 z-20 items-center justify-center font-gistesy text-[75px]">
               <p className="mt-8">02.</p>
@@ -66,7 +71,7 @@ const Impression = () => {
             <div className="relative w-full h-full overflow-hidden z-10">
               <Image
                 src="/images/vibes.jpg"
-                fill
+                layout="fill"
                 objectFit="cover"
                 alt="girl"
               />

@@ -8,7 +8,7 @@ const Contact = () => {
       </div>
 
       <div className="w-full px-10 md:px-20 py-20 xl:py-40 bg-blue-50">
-        <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 text-center mb-5">
+        <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 text-center mb-20">
           Drop us a line
         </h2>
         <form className="w-full md:w-[600px] mx-auto mt-10 flex flex-col items-center">

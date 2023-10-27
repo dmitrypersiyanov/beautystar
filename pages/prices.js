@@ -10,7 +10,7 @@ const Prices = () => {
           Our prices
         </h2>
       </div>
-      <div className="w-full p-10 sm:p-20 md:p-32">
+      <div className="w-full p-10 sm:p-20">
         <h1 className="text-3xl sm:text-4xl font-bold text-center text-slate-800 mx-5">
           Checkout our services price list
         </h1>
@@ -21,7 +21,10 @@ const Prices = () => {
               {services.map((service) => {
                 return (
                   <>
-                    <tr key={service.id} class="bg-slate-800 hover:scale-95">
+                    <tr
+                      key={service.id}
+                      class="bg-slate-800 hover:scale-95 transition-scale duration-200"
+                    >
                       <th
                         scope="row"
                         class={`px-12 py-6 font-normal text-white`}

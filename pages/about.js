@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const About = () => {
   return (
@@ -11,19 +11,25 @@ const About = () => {
             </h1>
           </div>
           <div className="h-96 overflow-hidden relative">
-            <Image alt="our team" src="/images/us.jpg" fill objectFit="cover" />
-          </div>
-        </div>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
-          <div className="h-96 relative order-2 lg:order-1">
             <Image
-              alt="founder"
-              src="/images/girl.jpg"
-              fill
+              alt="our team"
+              src="/images/us.jpg"
+              layout="fill"
               objectFit="cover"
             />
           </div>
-          <div className="bg-blue-300 order-1 lg:order-2 h-96 p-14 sm:p-14 flex flex-col justify-center">
+        </div>
+
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+          <div className="h-96 relative order-2 md:order-1">
+            <Image
+              alt="founder"
+              src="/images/girl.jpg"
+              layout="fill"
+              objectFit="cover"
+            />
+          </div>
+          <div className="bg-blue-300 order-1 md:order-2 flex h-96 p-14 sm:p-14 flex-col justify-center">
             <h2 className="text-4xl font-bold text-slate-800 mb-5">
               The Browery Way
             </h2>
@@ -32,17 +38,18 @@ const About = () => {
               ipsum lorem ipsum lorem ipsum lorem ipsum
             </p>
           </div>
-          <div className="bg-purple-300 relative h-96 order-3 flex items-center justify-center">
+          <div className="bg-purple-300 relative h-96 order-3 md:col-span-2 xl:col-span-1 flex items-center justify-center">
             <Image
               src="/images/scissors.jpg"
-              fill
+              layout="fill"
               objectFit="cover"
               alt="scrissors"
             />
           </div>
         </div>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="bg-teal-300 h-96 p-14 sm:p-20 flex flex-col justify-center">
+
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="bg-teal-300 h-96 p-14 sm:p-14 flex flex-col justify-center">
             <h2 className="text-4xl font-bold text-slate-800 mb-5">
               Our mission
             </h2>
@@ -51,7 +58,7 @@ const About = () => {
               ipsum lorem ipsum lorem ipsum lorem ipsum
             </p>
           </div>
-          <div className="bg-orange-300 h-96 flex justify-center items-center p-20 relative">
+          <div className="bg-orange-300 h-96 flex justify-center items-center p-10 sm:p-10 relative">
             <h2 className="text-5xl text-slate-800 mb-5 font-gistesy">
               To be continued...
             </h2>

@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import { services } from "@/data/services";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const BeautyService = () => {
   const round = (num) => Math.ceil(num);
@@ -20,7 +20,7 @@ const BeautyService = () => {
                 <Image
                   alt={service.name}
                   src={service.img}
-                  fill
+                  layout="fill"
                   objectFit="cover"
                 />
               </div>
