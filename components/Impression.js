@@ -12,7 +12,7 @@ const Impression = () => {
           <div className="relative w-full h-[400px]">
             <div className="relative w-full h-full overflow-hidden z-10">
               <Image
-                src="/images/creative.webp"
+                src="/images/creative.jpg"
                 layout="fill"
                 objectFit="cover"
                 alt="girl"
@@ -49,7 +49,7 @@ const Impression = () => {
           <div className="relative w-full h-[400px]">
             <div className="relative w-full h-full overflow-hidden z-10">
               <Image
-                src="/images/skin.webp"
+                src="/images/skin.jpg"
                 layout="fill"
                 objectFit="cover"
                 alt="girl"
@@ -72,7 +72,7 @@ const Impression = () => {
           <div className="relative w-full h-[400px]">
             <div className="relative w-full h-full overflow-hidden z-10">
               <Image
-                src="/images/vibes.webp"
+                src="/images/vibes.jpg"
                 layout="fill"
                 objectFit="cover"
                 alt="girl"

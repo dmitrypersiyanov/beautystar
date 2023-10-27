@@ -13,7 +13,7 @@ const About = () => {
           <div className="h-96 overflow-hidden relative">
             <Image
               alt="our team"
-              src="/images/us.webp"
+              src="/images/us.jpg"
               layout="fill"
               objectFit="cover"
               priority={true}
@@ -25,7 +25,7 @@ const About = () => {
           <div className="h-96 relative order-2 md:order-1">
             <Image
               alt="founder"
-              src="/images/ombre2.webp"
+              src="/images/ombre2.jpg"
               layout="fill"
               objectFit="cover"
               priority={true}
@@ -42,7 +42,7 @@ const About = () => {
           </div>
           <div className="bg-purple-300 relative h-96 order-3 md:col-span-2 xl:col-span-1 flex items-center justify-center">
             <Image
-              src="/images/scissors.webp"
+              src="/images/scissors.jpg"
               layout="fill"
               objectFit="cover"
               alt="scrissors"

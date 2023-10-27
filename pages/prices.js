@@ -5,12 +5,8 @@ const round = (num) => Math.ceil(num);
 const Prices = () => {
   return (
     <>
-      <div className="h-32 sm:h-48 xl:h-64 w-full bg-gradient-to-r from-blue-200 via-purple-200 to-purple-300 flex justify-end items-center pr-10 sm:pr-20 lg:pr-40">
-        <h2 className="font-gistesy text-5xl sm:text-5xl lg:text-6xl text-slate-800">
-          Our prices
-        </h2>
-      </div>
-      <div className="w-full p-10 sm:p-20">
+      <div className="h-32 sm:h-48 xl:h-64 w-full bg-gradient-to-r from-blue-200 via-purple-200 to-purple-300 flex justify-end items-center pr-10 sm:pr-20 lg:pr-40"></div>
+      <div className="w-full py-10 px-8 sm:px-20 sm:py-20">
         <h1 className="text-3xl sm:text-4xl font-bold text-center text-slate-800 mx-5">
           Checkout our services price list
         </h1>
@@ -27,12 +23,12 @@ const Prices = () => {
                     >
                       <th
                         scope="row"
-                        class={`px-12 py-6 font-normal text-white`}
+                        class={`px-6 sm:px-12 py-6 font-normal text-white`}
                       >
                         {service.title}
                       </th>
                       <td
-                        class={`px-12 py-6 text-right border-l-2 border-transparent`}
+                        class={`px-6 sm:px-12 py-6 text-right border-l-2 border-transparent`}
                       >
                         ${round(service.totalPrice())}
                       </td>

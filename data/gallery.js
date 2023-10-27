@@ -1,32 +1,32 @@
 export const gallery = [
   {
     id: 1,
-    img: "/images/style_one.webp",
+    img: "/images/style_one.jpg",
     title: "default",
   },
   {
     id: 2,
-    img: "/images/ombre2.webp",
+    img: "/images/ombre2.jpg",
     title: "default",
   },
   {
     id: 3,
-    img: "/images/color.webp",
+    img: "/images/color.jpg",
     title: "default",
   },
   {
     id: 4,
-    img: "/images/ombre.webp",
+    img: "/images/ombre.jpg",
     title: "default",
   },
   {
     id: 5,
-    img: "/images/style_nine.webp",
+    img: "/images/style_nine.jpg",
     title: "default",
   },
   {
     id: 6,
-    img: "/images/style_two.webp",
+    img: "/images/style_two.jpg",
     title: "default",
   },
 ];
