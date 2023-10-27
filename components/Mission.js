@@ -10,7 +10,7 @@ const Mission = () => {
         stay current and on trend.
       </p>
       <h3 className="text-xl text-slate-800 text-center w-full lg:w-[650px]">
-        - Alexander McQueen & Freddy Mercury, Co-founders
+        - Alexander Shefield & Freddy Costanolli, Co-founders
       </h3>
     </div>
   );

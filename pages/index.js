@@ -1,16 +1,16 @@
 import Intro from "@/components/Intro";
-import Salon from "@/components/Salon";
-import Services from "@/components/Services";
-import Stylists from "@/components/Stylists";
+import Impression from "@/components/Impression";
+import ServiceItems from "@/components/ServiceItems";
+import StylistItems from "@/components/StylistItems";
 import Mission from "@/components/Mission";
 
 const Home = () => {
   return (
     <>
       <Intro />
-      <Salon />
-      <Stylists />
-      <Services />
+      <Impression />
+      <StylistItems />
+      <ServiceItems />
       <Mission />
     </>
   );

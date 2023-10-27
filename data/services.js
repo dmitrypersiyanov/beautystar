@@ -1,7 +1,7 @@
 export const services = [
   {
     id: 1,
-    title: "Brow Tinting",
+    title: "Coloring",
     price: 150,
     discount: 20,
     totalPrice: function () {
@@ -11,7 +11,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/splash.jpg",
+    img: "/images/color.jpg",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -31,7 +31,7 @@ export const services = [
   },
   {
     id: 2,
-    title: "Brow Lamination",
+    title: "Men's cuts",
     price: 145,
     discount: 10,
     totalPrice: function () {
@@ -41,7 +41,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/plush.jpg",
+    img: "/images/mens.jpg",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -61,7 +61,7 @@ export const services = [
   },
   {
     id: 3,
-    title: "Microblading",
+    title: "Ombré",
     price: 125,
     discount: 15,
     totalPrice: function () {
@@ -71,7 +71,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/powder.jpg",
+    img: "/images/ombre2.jpg",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -91,7 +91,7 @@ export const services = [
   },
   {
     id: 4,
-    title: "Waxing",
+    title: "Braiding",
     price: 199,
     discount: 5,
     totalPrice: function () {
@@ -101,7 +101,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/soap.jpg",
+    img: "/images/braiding.jpg",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -121,7 +121,7 @@ export const services = [
   },
   {
     id: 5,
-    title: "Wow Brow",
+    title: "Extensions",
     price: 130,
     discount: 25,
     totalPrice: function () {
@@ -131,7 +131,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/design.jpg",
+    img: "/images/extension.jpg",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -151,7 +151,7 @@ export const services = [
   },
   {
     id: 6,
-    title: "Henna Brows",
+    title: "Curly | Textured Hair",
     price: 175,
     discount: 10,
     totalPrice: function () {
@@ -161,7 +161,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/colors.jpg",
+    img: "/images/curly.jpg",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -181,7 +181,7 @@ export const services = [
   },
   {
     id: 7,
-    title: "Lashes",
+    title: "Blondes",
     price: 200,
     discount: 7,
     totalPrice: function () {
@@ -191,7 +191,7 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/makeup.jpg",
+    img: "/images/blondes.jpg",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -211,7 +211,7 @@ export const services = [
   },
   {
     id: 8,
-    title: "Coloring",
+    title: "Balayage",
     price: 552,
     discount: 7,
     totalPrice: function () {
@@ -221,7 +221,157 @@ export const services = [
         return this.price;
       }
     },
-    img: "/images/donato.jpg",
+    img: "/images/balayage.jpg",
+    what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    how: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    for: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    preferableSessions: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+  },
+  {
+    id: 9,
+    title: "Children Haircuts",
+    price: 552,
+    discount: 7,
+    totalPrice: function () {
+      if (this.discount !== 0) {
+        return this.price - (this.price * this.discount) / 100;
+      } else {
+        return this.price;
+      }
+    },
+    img: "/images/children.jpg",
+    what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    how: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    for: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    preferableSessions: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+  },
+  {
+    id: 10,
+    title: "Special Occasions",
+    price: 552,
+    discount: 7,
+    totalPrice: function () {
+      if (this.discount !== 0) {
+        return this.price - (this.price * this.discount) / 100;
+      } else {
+        return this.price;
+      }
+    },
+    img: "/images/occasion.jpg",
+    what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    how: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    for: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    preferableSessions: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+  },
+  {
+    id: 11,
+    title: "Up Do’s",
+    price: 552,
+    discount: 7,
+    totalPrice: function () {
+      if (this.discount !== 0) {
+        return this.price - (this.price * this.discount) / 100;
+      } else {
+        return this.price;
+      }
+    },
+    img: "/images/updo.jpg",
+    what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    how: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    for: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    preferableSessions: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+  },
+  {
+    id: 12,
+    title: "Color Correction",
+    price: 552,
+    discount: 7,
+    totalPrice: function () {
+      if (this.discount !== 0) {
+        return this.price - (this.price * this.discount) / 100;
+      } else {
+        return this.price;
+      }
+    },
+    img: "/images/correction.jpg",
+    what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    how: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    for: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+    preferableSessions: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum`,
+  },
+  {
+    id: 13,
+    title: "Fades",
+    price: 552,
+    discount: 7,
+    totalPrice: function () {
+      if (this.discount !== 0) {
+        return this.price - (this.price * this.discount) / 100;
+      } else {
+        return this.price;
+      }
+    },
+    img: "/images/fade.jpg",
     what: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 

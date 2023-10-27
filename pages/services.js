@@ -13,12 +13,9 @@ const Services = () => {
         </h2>
       </div>
       <div className="w-full h-auto py-20">
-        <h1 className="text-3xl font-bold text-slate-800 text-center mb-20 mx-5">
-          Choose from what people like the most
+        <h1 className="text-3xl sm:text-4xl font-bold text-slate-800 text-center mb-20 mx-5">
+          Discover our services
         </h1>
-        {/* <h3 className="text-5xl text-slate-800 text-center font-gistesy mb-20">
-          X-Clusive
-        </h3> */}
         <div className="grid grid-cols-1 gap-32 px-10 sm:px-20 xl:px-40 mb-20">
           {services.map((item) => {
             return item.id % 2 == 0 ? (

@@ -25,36 +25,46 @@ const BeautyService = () => {
                 />
               </div>
               <div className="w-full sm:w-1/2 h-full p-10 sm:p-10 lg:p-20 flex flex-col">
-                <h2 className="text-slate-800 text-center text-3xl font-semibold mb-4">
-                  {service.title}
-                </h2>
-                {/* <span className="bg-slate-700 px-4 py-2 rounded-md text-md font-light text-white inline-block">
-                  from CAD${round(service.totalPrice())}
-                </span> */}
+                <div className="flex flex-row justify-between">
+                  <div className="w-full xl:w-1/2">
+                    <h2 className="text-slate-800 text-start text-3xl font-semibold mb-4">
+                      {service.title}
+                    </h2>
+                  </div>
+                </div>
+                <span className="bg-slate-800 px-4 py-2 rounded-md text-md font-light text-white w-full">
+                  ${round(service.totalPrice())}
+                </span>
                 <hr className="h-0.5 my-8 border-0 bg-slate-100" />
+
                 <h2 className="text-xl font-normal mb-3">
-                  What is {service.title}?
+                  What is {service.title.toLowerCase()}?
                 </h2>
                 <p className="text-lg font-light text-slate-600">
                   {service.what}
                 </p>
-                <h2 className="text-xl font-normal mt-7 mb-3">How it works?</h2>
+                <h2 className="text-xl font-normal mt-7 mb-3">
+                  What's included in the services?
+                </h2>
                 <p className="text-lg font-light text-slate-600">
                   {service.how}
                 </p>
                 <h2 className="text-xl font-normal mt-7 mb-3">
-                  Who is {service.title} for?
+                  Who is {service.title.toLowerCase()} for?
                 </h2>
                 <p className="text-lg font-light text-slate-600">
                   {service.for}
                 </p>
-                <h2 className="text-xl font-normal mt-7 mb-3">
-                  How many sessions do you need?
-                </h2>
-                <p className="text-lg font-light text-slate-600">
-                  {service.preferableSessions}
-                </p>
-                {/* <hr className="h-1 my-8 mt-12 border-0 bg-slate-600" /> */}
+                {service.title !== "Extensions" && (
+                  <>
+                    <h2 className="text-xl font-normal mt-7 mb-3">
+                      How often do I need to make {service.title.toLowerCase()}?
+                    </h2>
+                    <p className="text-lg font-light text-slate-600">
+                      {service.preferableSessions}
+                    </p>
+                  </>
+                )}
                 <a
                   className="mx-auto rounded-full w-auto text-center px-7 py-3 mt-10 mb-4 bg-gradient-to-br from-blue-300 via-purple-300 to-purple-400  text-slate-800"
                   href=""

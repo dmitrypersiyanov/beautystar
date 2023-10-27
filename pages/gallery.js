@@ -10,12 +10,9 @@ const Gallery = () => {
         </h2>
       </div>
       <div className="w-full h-auto py-20 px-6 sm:px-10 flex flex-col items-center">
-        <h1 className="text-4xl font-bold text-slate-800 text-center mb-20">
+        <h1 className="text-3xl sm:text-4xl font-bold text-slate-800 text-center mb-20">
           Get inspired by our most recent work
         </h1>
-        {/* <h3 className="text-5xl text-slate-800 text-center font-gistesy mb-14">
-          Before / After
-        </h3> */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10 w-full xl:w-[1100px]">
           {gallery.map((photo) => {
             return <Photocard {...photo} key={photo.id} />;

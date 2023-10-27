@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ServicePanelRight = ({ img, title, what, round, totalPrice }) => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 xl:gap-32">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-20 xl:gap-32">
       <div className="relative overflow-hidden rounded-lg w-full lg:min-w-[405px] h-72 sm:h-96">
         <Image src={img} alt={title} fill objectFit="cover" />
       </div>

@@ -2,7 +2,24 @@ export const stylists = [
   {
     id: 1,
     name: "Julian Moore",
-    specialization: "makeup artist",
+    specialization: [
+      {
+        id: 1,
+        title: "men’s cuts",
+        rate: 75,
+      },
+      {
+        id: 2,
+        title: "curly | textured hair",
+        rate: 125,
+      },
+      {
+        id: 3,
+        title: "coloring",
+        rate: 200,
+      },
+    ],
+    mainSpecialization: "coloring",
     about: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -22,7 +39,24 @@ export const stylists = [
   {
     id: 2,
     name: "Sofia Copola",
-    specialization: "lashes and brows",
+    specialization: [
+      {
+        id: 1,
+        title: "extensions",
+        rate: 155,
+      },
+      {
+        id: 2,
+        title: "braiding",
+        rate: 295,
+      },
+      {
+        id: 3,
+        title: "coloring",
+        rate: 150,
+      },
+    ],
+    mainSpecialization: "braiding",
     about: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -42,7 +76,24 @@ export const stylists = [
   {
     id: 3,
     name: "Bob Dilan",
-    specialization: "hair care",
+    specialization: [
+      {
+        id: 1,
+        title: "blondes",
+        rate: 100,
+      },
+      {
+        id: 2,
+        title: "balayage",
+        rate: 110,
+      },
+      {
+        id: 3,
+        title: "ombré",
+        rate: 200,
+      },
+    ],
+    mainSpecialization: "ombré",
     about: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -62,7 +113,24 @@ export const stylists = [
   {
     id: 4,
     name: "Luiza Tamrazy",
-    specialization: "hair extension",
+    specialization: [
+      {
+        id: 1,
+        title: "up do’s",
+        rate: 85,
+      },
+      {
+        id: 2,
+        title: "children haircuts",
+        rate: 45,
+      },
+      {
+        id: 3,
+        title: "special occasions",
+        rate: 150,
+      },
+    ],
+    mainSpecialization: "children haircuts",
     about: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -82,7 +150,24 @@ export const stylists = [
   {
     id: 5,
     name: "Francesca Cooper",
-    specialization: "bridal artist",
+    specialization: [
+      {
+        id: 1,
+        title: "color correction",
+        rate: 100,
+      },
+      {
+        id: 2,
+        title: "balayage",
+        rate: 135,
+      },
+      {
+        id: 3,
+        title: "braiding",
+        rate: 375,
+      },
+    ],
+    mainSpecialization: "color correction",
     about: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -102,7 +187,24 @@ export const stylists = [
   {
     id: 6,
     name: "Briana Davis",
-    specialization: "esthetics",
+    specialization: [
+      {
+        id: 1,
+        title: "fades",
+        rate: 95,
+      },
+      {
+        id: 2,
+        title: "children haircut",
+        rate: 45,
+      },
+      {
+        id: 3,
+        title: "extensions",
+        rate: 105,
+      },
+    ],
+    mainSpecialization: "fades",
     about: `Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -58,21 +57,27 @@ const Footer = () => {
               <div className="flex flex-col gap-2">
                 <a
                   className="text-slate-500 hover:text-slate-300 font-normal"
-                  href="https://www.facebook.com/p/Denzel-Washington-Actor-100050289617498/"
+                  href="https://www.facebook.com/"
                 >
                   Facebook
                 </a>
                 <a
                   className="text-slate-500 hover:text-slate-300 font-normal"
-                  href="https://www.facebook.com/p/Denzel-Washington-Actor-100050289617498/"
+                  href="https://www.instagram.com/"
                 >
                   Instagram
                 </a>
                 <a
                   className="text-slate-500 hover:text-slate-300 font-normal"
-                  href="https://www.facebook.com/p/Denzel-Washington-Actor-100050289617498/"
+                  href="https://www.snapchat.com/"
                 >
-                  Spapchat
+                  Snapchat
+                </a>
+                <a
+                  className="text-slate-500 hover:text-slate-300 font-normal"
+                  href="https://www.youtube.com/"
+                >
+                  YouTube
                 </a>
               </div>
             </div>

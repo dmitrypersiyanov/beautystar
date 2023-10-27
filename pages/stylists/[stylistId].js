@@ -28,9 +28,39 @@ const StylistProfile = () => {
                   {stylist.name}
                 </h2>
                 <hr className="h-0.5 my-8 border-0 bg-slate-100" />
-                {/* <span className="bg-slate-700 px-4 py-2 rounded-md text-md font-light text-white mb-4 inline-block">
-                  {stylist.specialization}
-                </span> */}
+                <div className="flex flex-col gap-5 xl:gap-3 xl:flex-row">
+                  <div className="w-full xl:w-1/2">
+                    <h2 className="text-xl font-normal mb-3">Main specialty</h2>
+                    <div>
+                      <div className="bg-slate-800 px-4 py-2 rounded-md text-md font-light text-white w-full">
+                        <span>{stylist.mainSpecialization}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full xl:w-1/2">
+                    <h2 className="text-xl font-normal mb-3">
+                      Other specialties
+                    </h2>
+                    <div className="flex flex-col gap-3">
+                      {stylist.specialization
+                        .filter(
+                          (specialty) =>
+                            specialty.title !== stylist.mainSpecialization
+                        )
+                        .map((specialty) => {
+                          return (
+                            <span
+                              className="bg-slate-100 px-4 py-2 rounded-md text-md font-light text-slate-800 w-full block"
+                              key={specialty.id}
+                            >
+                              {specialty.title}
+                            </span>
+                          );
+                        })}
+                    </div>
+                  </div>
+                </div>
+                <hr className="h-0.5 my-8 border-0 bg-slate-100" />
                 <h2 className="text-xl font-normal mb-3">
                   About {stylist.name}
                 </h2>
