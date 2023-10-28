@@ -25,8 +25,8 @@ const Impression = () => {
           </div>
         </div>
         <div className="flex w-full h-64 sm:w-1/2">
-          <div className="w-full h-full bg-slate-800 px-10 lg:px-14 flex justify-end items-center">
-            <h1 className="text-4xl text-slate-100 font-semibold text-right">
+          <div className="w-full h-full bg-slate-800 px-10 lg:px-14 flex justify-center sm:justify-end items-center">
+            <h1 className="text-4xl text-slate-100 font-semibold text-center sm:text-right">
               Utmost creativity
             </h1>
           </div>
@@ -39,8 +39,8 @@ const Impression = () => {
 
       <div className="w-full mt-40 lg:mt-0 lg:p-40 pb-40 lg:pb-60 flex flex-col sm:flex-row items-center justify-center">
         <div className="flex w-full sm:w-1/2 h-64">
-          <div className="w-full h-full bg-slate-800 px-10 lg:px-14 flex justify-start items-center">
-            <h1 className="text-4xl text-slate-100 font-semibold text-left">
+          <div className="w-full h-full bg-slate-800 px-10 lg:px-14 flex justify-center sm:justify-start items-center">
+            <h1 className="text-4xl text-slate-100 font-semibold text-center sm:text-left">
               On-demand solutions
             </h1>
           </div>
@@ -85,8 +85,8 @@ const Impression = () => {
           </div>
         </div>
         <div className="flex w-full sm:w-1/2 h-64">
-          <div className="w-full h-full bg-slate-800 px-10 lg:px-14 flex justify-end items-center">
-            <h1 className="text-4xl text-slate-100 font-semibold text-right">
+          <div className="w-full h-full bg-slate-800 px-10 lg:px-14 flex justify-center sm:justify-end items-center">
+            <h1 className="text-4xl text-slate-100 font-semibold text-center sm:text-right">
               Outstanding vibes
             </h1>
           </div>
