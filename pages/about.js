@@ -16,7 +16,9 @@ const About = () => {
               src="/images/us.jpg"
               layout="fill"
               objectFit="cover"
-              priority={true}
+              // priority={true}
+              placeholder="blur"
+              blurDataURL
             />
           </div>
         </div>
@@ -28,7 +30,9 @@ const About = () => {
               src="/images/ombre2.jpg"
               layout="fill"
               objectFit="cover"
-              priority={true}
+              // priority={true}
+              placeholder="blur"
+              blurDataURL
             />
           </div>
           <div className="bg-blue-300 order-1 md:order-2 flex h-96 p-14 sm:p-14 flex-col justify-center">
@@ -46,7 +50,9 @@ const About = () => {
               layout="fill"
               objectFit="cover"
               alt="scrissors"
-              priority={true}
+              // priority={true}
+              placeholder="blur"
+              blurDataURL
             />
           </div>
         </div>

@@ -9,7 +9,9 @@ const Photocard = ({ img, title }) => {
           alt={title}
           layout="fill"
           objectFit="cover"
-          priority={true}
+          // priority={true}
+          placeholder="blur"
+          blurDataURL
         />
       </figure>
     </div>

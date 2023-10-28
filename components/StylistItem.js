@@ -10,7 +10,9 @@ const StylistItem = ({ name, img, mainSpecialization }) => {
           src={img}
           layout="fill"
           objectFit="cover"
-          priority={true}
+          // priority={true}
+          placeholder="blur"
+          blurDataURL
         />
         <div className="absolute top-0 right-0 left-0 bottom-0 transition-background duration-300 hover:bg-slate-900/70">
           <div className="w-full h-full flex flex-col items-center justify-center text-slate-50 group">

@@ -10,7 +10,9 @@ const ServicePanelRight = ({ img, title, what, round, totalPrice }) => {
           alt={title}
           layout="fill"
           objectFit="cover"
-          priority={true}
+          // priority={true}
+          placeholder="blur"
+          blurDataURL
         />
       </div>
       <div className="flex flex-col items-start gap-5">
