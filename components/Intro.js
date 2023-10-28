@@ -11,7 +11,7 @@ const Intro = () => {
         </div>
         <div className="w-full lg:w-[45%] xl:w-[50%] h-full bg-white p-10 sm:p-20 lg:p-10 xl:p-20">
           <h2 className="text-slate-700 text-3xl">
-            Welcome to the <span className="font-bold">Browery Studio</span>
+            Welcome to <span className="font-bold">Browery Studio</span>
           </h2>
           <hr className="my-10" />
           <p className="text-slate-700 text-lg font-light mb-5">

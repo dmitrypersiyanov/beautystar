@@ -35,10 +35,10 @@ const ServiceItems = () => {
       id="services"
       className="w-full py-32 flex flex-col justify-center items-center bg-blue-50"
     >
-      <h2 className="text-center text-3xl sm:text-4xl font-bold mb-32 text-slate-800 px-10">
+      <h2 className="text-center text-3xl sm:text-4xl font-bold mb-20 text-slate-800 px-10">
         Discover our most trending services
       </h2>
-      <div className="w-full flex flex-col gap-4 justify-center items-center mb-16 overflow-hidden">
+      <div className="w-full flex flex-col gap-4 justify-center items-center  overflow-hidden">
         <motion.div
           ref={ref}
           variants={list}
