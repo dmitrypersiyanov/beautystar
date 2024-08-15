@@ -39,9 +39,9 @@ const About = () => {
             <h2 className="text-4xl font-bold text-slate-800 mb-5">
               The Browery Way
             </h2>
-            <p className="text-md font-normal text-slate-800 mb-3">
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-              ipsum lorem ipsum lorem ipsum lorem ipsum
+            <p className="text-md font-normal text-slate-600 mb-3">
+            We create styles that enhance your natural charm in a warm, 
+            welcoming environment. Discover the difference a dedicated touch can make.
             </p>
           </div>
           <div className="bg-purple-300 relative h-96 order-3 md:col-span-2 xl:col-span-1 flex items-center justify-center">
@@ -62,9 +62,10 @@ const About = () => {
             <h2 className="text-4xl font-bold text-slate-800 mb-5">
               Our mission
             </h2>
-            <p className="text-md font-normal text-slate-800 mb-3">
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-              ipsum lorem ipsum lorem ipsum lorem ipsum
+            <p className="text-md font-normal text-slate-600 mb-3">
+            Our mission is to enhance your beauty with personalized, expert care, 
+            creating a welcoming environment where your unique style is 
+            celebrated and every visit is a memorable experience.
             </p>
           </div>
           <div className="bg-orange-300 h-96 flex justify-center items-center p-10 sm:p-10 relative">

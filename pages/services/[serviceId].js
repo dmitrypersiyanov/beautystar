@@ -3,6 +3,7 @@ import { services } from "@/data/services";
 import Image from "next/legacy/image";
 
 const BeautyService = () => {
+
   const round = (num) => Math.ceil(num);
   const router = useRouter();
   const serviceId = router.query.serviceId;

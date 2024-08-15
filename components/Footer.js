@@ -10,7 +10,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-10 lg:gap-0">
             <div className="w-full sm:w-[300px] flex flex-col items-start gap-2">
-              <h3 className="text-slate-300 text-lg font-semibold mb-5 uppercase">
+              <h3 className="text-slate-400 text-lg font-semibold mb-5 uppercase">
                 Navigation
               </h3>
               <Link
@@ -51,7 +51,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="w-full sm:w-[300px] flex flex-col items-start gap-2">
-              <h3 className="text-slate-300 text-lg font-semibold mb-5 uppercase">
+              <h3 className="text-slate-400 text-lg font-semibold mb-5 uppercase">
                 Social
               </h3>
               <div className="flex flex-col gap-2">
@@ -85,7 +85,7 @@ const Footer = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-10 lg:gap-0">
             <div className="w-full sm:w-[300px] flex flex-col gap-4">
-              <h3 className="text-slate-300 text-lg font-semibold mb-5 uppercase">
+              <h3 className="text-slate-400 text-lg font-semibold mb-5 uppercase">
                 Hours
               </h3>
               <div className="flex flex-col gap-2">
@@ -142,7 +142,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="w-full sm:w-[300px] flex flex-col items-start gap-4">
-              <h3 className="text-slate-300 text-lg font-semibold mb-5 uppercase">
+              <h3 className="text-slate-400 text-lg font-semibold mb-5 uppercase">
                 Contact
               </h3>
               <div>

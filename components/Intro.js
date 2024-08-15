@@ -15,18 +15,17 @@ const Intro = () => {
           </h2>
           <hr className="my-10" />
           <p className="text-slate-700 text-lg font-light mb-5">
-            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            lorem ipsum lorem ipsum lorem ipsum.
-          </p>
-          <p className="text-slate-700 text-lg font-light mb-5">
-            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-            ipsum lorem ipsum lorem ipsum lorem.
+          A place where your style transformation begins. Elevate your look with our 
+          expert services designed to enhance your natural beauty and boost your 
+          confidence. Embrace the journey of self-expression and discover a new 
+          level of sophistication.
           </p>
           <p className="text-slate-700 text-lg font-light mb-10">
-            Lorem ipsum lorem ipsum lorem!
+          From personalized consultations to 
+          exceptional care, we're here to ensure you leave feeling radiant 
+          and revitalized. Experience the ultimate in style and elegance 
+          with us.
           </p>
-
           <Link
             href="/services"
             className="rounded-full px-6 py-4 bg-slate-800 text-white font-light block w-40 text-center"
