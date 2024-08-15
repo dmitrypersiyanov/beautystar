@@ -22,7 +22,7 @@ const Intro = () => {
           </p>
           <p className="text-slate-700 text-lg font-light mb-10">
           From personalized consultations to 
-          exceptional care, we're here to ensure you leave feeling radiant 
+          exceptional care, we&apos;re here to ensure you leave feeling radiant 
           and revitalized. Experience the ultimate in style and elegance 
           with us.
           </p>
